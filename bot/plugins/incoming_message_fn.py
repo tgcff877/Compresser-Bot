@@ -99,8 +99,8 @@ async def incoming_start_message_f(bot, update):
                     InlineKeyboardButton('👥Support Group', url='https://t.me/BxSupport')
                 ],
                 [
-                    InlineKeyboardButton('⚙️Help', callback_data='help'),
-                    InlineKeyboardButton('🤖 Update Channel', url='https://t.me/BX_Botz')
+                    InlineKeyboardButton('⏳ Status ⏳', url='https://t.me/BXCompressStatus'),
+                    InlineKeyboardButton('⚙️'Help, callback_data=("help")
                 ]
             ]
         ),
@@ -140,7 +140,7 @@ async def incoming_compress_message_f(bot, update):
         except Exception:
             await bot.send_message(
                 chat_id=update.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/BxSupport).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -165,7 +165,7 @@ async def incoming_compress_message_f(bot, update):
                 try:
                     await bot.send_message(
                         chat_id=update.chat.id,
-                        text="🤬 Value should be 10 to 90",
+                        text="😁 Value should be 10 to 90",
                         reply_to_message_id=update.message_id
                     )
                     return
