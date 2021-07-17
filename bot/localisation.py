@@ -13,9 +13,9 @@ class Localisation:
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = "📥 Downloading ... 📥 \n"
+    DOWNLOAD_START = "📥 Downloading ... 📥l \n"
     
-    UPLOAD_START = "📤 Uploading ... 📤 \n"
+    UPLOAD_START = "📤 Uploading ...  \n"
     
     COMPRESS_START = "📀 Trying to compress ... 📀"
     
@@ -23,7 +23,7 @@ class Localisation:
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}\n\nBy @Discovery_Updates"
+    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}\n\n⚜️ 𝙼𝚊𝚒𝚗𝚝𝚊𝚒𝚗𝚎𝚍  𝙱𝚢 @BX_Botz"
 
     COMPRESS_PROGRESS = "⏳ ETA: {}\n🚀 Progress: {}%"
 
