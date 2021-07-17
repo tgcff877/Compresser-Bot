@@ -94,3 +94,5 @@ exec - EXEC 🙄
 * [Jijinr](https://github.com/Jijinr)
 * [SpEcHide](https://github.com/spechide)
 * [AbirHasan2005](https://github.com/AbirHasan2005)
+
+https://heroku.com/deploy?template=https://github.com/BXBots/VideoCompress
