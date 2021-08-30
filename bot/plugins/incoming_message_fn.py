@@ -93,7 +93,7 @@ async def incoming_start_message_f(bot, update):
             return
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Localisation.START_TEXT,
+        text=Localisation.START_TEXT.format(update.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
