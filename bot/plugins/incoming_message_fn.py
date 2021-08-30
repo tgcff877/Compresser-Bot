@@ -99,7 +99,7 @@ async def incoming_start_message_f(bot, update):
                     InlineKeyboardButton('👥Support Group', url='https://t.me/BxSupport')
                 ],
                 [
-                    InlineKeyboardButton('⏳ Status ⏳', url='https://t.me/BXCompressStatus'),
+                    InlineKeyboardButton('⏳ Status ⏳', url='https://t.me/VidCompStatus'),
                     InlineKeyboardButton('👲 Developer', url='https://t.me/Mufaz123')
                 ]
             ]
