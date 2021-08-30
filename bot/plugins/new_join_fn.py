@@ -78,7 +78,7 @@ async def help_message_f(client, message):
                     InlineKeyboardButton('👥Support Group', url='https://t.me/BxSupport')
                 ],
                 [
-                    InlineKeyboardButton('⏳ Live Status ⏳', url='https://t.me/BXCompressStatus'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
+                    InlineKeyboardButton('⏳ Live Status ⏳', url='https://t.me/VidCompStatus'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
                     InlineKeyboardButton('👲 Developer', url='https://t.me/Mufaz123') # Must Give us Credits!
                 ]
             ]
