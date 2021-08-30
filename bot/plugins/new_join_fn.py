@@ -79,7 +79,7 @@ async def help_message_f(client, message):
                 ],
                 [
                     InlineKeyboardButton('**⏳ Live Status ⏳**', url='https://t.me/VidCompStatus'),
-                    InlineKeyboardButton('🧑‍💻 Developer, url='https://t.me/Mufaz123')
+                    InlineKeyboardButton('🧑‍💻 Developer', url='https://t.me/Mufaz123')
                 ]
             ]
         ),
