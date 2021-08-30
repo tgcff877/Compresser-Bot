@@ -78,7 +78,7 @@ async def help_message_f(client, message):
                     InlineKeyboardButton('👥Support Group', url='https://t.me/BXSupport')
                 ],
                 [
-                    InlineKeyboardButton('**⏳ Live Status ⏳**', url='https://t.me/VidCompStatus'),
+                    InlineKeyboardButton('⏳ Live Status ⏳', url='https://t.me/VidCompStatus'),
                     InlineKeyboardButton('🧑‍💻 Developer', url='https://t.me/Mufaz123')
                 ]
             ]
