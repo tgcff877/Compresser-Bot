@@ -3,7 +3,7 @@ Pillow
 psutil
 hachoir
 tgcrypto
-pyrogram==1.2.5
+pyrogram==1.3.4
 motor
 aiofiles
 dnspython
