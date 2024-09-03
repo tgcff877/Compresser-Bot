@@ -11,7 +11,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=America/Los_Angeles
 
 RUN apt -qq install -y git wget curl busybox  python3 ffmpeg python3-pip ntp
-RUN service ntp start
 RUN ntpd -q -g -x
 
 COPY requirements.txt .
